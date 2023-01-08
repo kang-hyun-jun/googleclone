@@ -1,0 +1,116 @@
+/* Header */
+header
+{
+  display: flex;
+  justify-content: space-between;
+}
+#myface
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.left
+{
+  display: flex;
+  padding: 25px 30px;
+}
+.info
+{
+  margin-right: 20px;
+}
+.right
+{
+  display: flex;
+  align-items: center;
+  padding: 20px 35px;
+}
+.right span,.right i
+{
+  margin-right: 20px;
+}
+/* Section */
+section
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 180px;
+  margin-bottom: 260px;
+}
+#gicon
+{
+  width: 272px;
+  height: 90px;
+}
+#camaraicon
+{
+  width: 24px;
+  height: 24px;
+}
+.search
+{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px #70757a solid;
+  justify-content: space-between;
+  padding: 7px 5px;
+  border-radius: 50px;
+}
+#sright
+{
+  display: flex;
+  align-items: center;
+}
+.search input
+{
+  border: none;
+}
+.search input:focus
+{
+  outline: none;
+}
+#keybord
+{
+  margin-left: 140px;
+  margin-right: 9px;
+}
+#mic
+{
+  margin-right: 9px;
+}
+.button
+{
+  margin-top: 15px;
+}
+.button input
+{
+  border: none;
+}
+/* Footer */
+footer
+{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.korea
+{
+  border-bottom: 1px #70757a solid;
+  padding-left: 24px;
+  padding-bottom: 14px;
+}
+.bottom
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 24px ;
+}
+.bottom span
+{
+  margin-right: 10px;
+}
